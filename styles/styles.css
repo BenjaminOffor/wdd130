@@ -1,41 +1,20 @@
-/* Main section styling */
-main {
-    max-width: 800px;
-    margin: auto;
-  }
-  
-  /* Styling for the aside element */
-  aside {
-    width: 300px;
-    margin: 20px auto;
-    border: 1px solid #ccc;
-    padding: 15px;
-    background-color: #f9f9f9;
-    color: #333;
-  }
-  
-  /* Image inside the aside section */
-  aside img {
-    width: 200px;
-    height: auto;
-  }
-  
-  /* Exclusive styling for profile image */
-  main img {
+nav {background-color:darkblue;
+padding: 10px;
+}
+nav a {color: white;
+display: block;
+padding: 20px;
+}
+hi {color: darkblue;
+}
+img {
     width: 150px;
     height: auto;
-  }
-  
-  /* Paragraph styling */
-  p {
-    padding: 0;
-  }
-  
-  /* Footer styling */
-  footer {
-    margin-top: 20px;
-    border-top: 2px solid #ccc;
-    text-align: center;
-    padding-top: 10px;
-  }
-  
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+
+}
+p {
+    padding: 10px;
+}
