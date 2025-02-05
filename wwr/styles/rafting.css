@@ -1,0 +1,101 @@
+/* Define CSS Variables */
+:root {
+    --primary-color: #00001E;
+    --secondary-color: #6CC2EB;
+    --accent1-color: #733634;
+    --accent2-color: #D7EDF8;
+    --heading-font: 'Oswald', sans-serif;
+    --text-font: 'Lato', sans-serif;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: var(--text-font);
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  h1, h2, h3 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+  }
+  
+  p {
+    color: var(--primary-color);
+  }
+  
+  /* Header Styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: var(--accent1-color);
+    margin: 0 15px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    text-align: center;
+  }
+  
+  .hero img {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 30, 0.7);
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  /* Article Styles */
+  article {
+    position: relative;
+    padding: 20px;
+    background-color: var(--accent2-color);
+  }
+  
+  article img {
+    float: right;
+    margin: 10px;
+    width: 150px;
+    border-radius: 5px;
+  }
+  
+  /* Section Styles */
+  section h2 {
+    color: var(--accent1-color);
+  }
+  
+  /* Social Media Icons */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  footer a img {
+    width: 30px;
+    margin: 5px;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  
