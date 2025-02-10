@@ -97,6 +97,33 @@ nav ul li a {
     border-radius: 5px;
   }
   
+  /* Adventures Section - Grid Layout */
+.adventure-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));  /* Responsive grid */
+  gap: 15px;
+  padding: 20px;
+}
+
+.adventure-gallery figure {
+  text-align: center;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.adventure-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.adventure-gallery figcaption {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
   /* Section Styles */
   section h2 {
     color: var(--accent1-color);
