@@ -100,7 +100,7 @@ nav ul li a {
   /* Adventures Section - Grid Layout */
 .adventure-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));  /* Responsive grid */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  /* Responsive grid */
   gap: 15px;
   padding: 20px;
 }
