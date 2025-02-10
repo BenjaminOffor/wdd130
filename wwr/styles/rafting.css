@@ -37,7 +37,24 @@ header {
   padding: 10px 20px;
 }
 
-  
+  /* Navigation - Updated to Flexbox */
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--accent1-color);
+  font-weight: bold;
+}
+
   nav a {
     text-decoration: none;
     color: var(--accent1-color);
