@@ -129,13 +129,25 @@ nav ul li a {
     color: var(--accent1-color);
   }
   
-  /* Social Media Icons */
-  footer {
-    text-align: center;
-    padding: 20px;
-    background-color: var(--primary-color);
-    color: white;
-  }
+  /* Footer - Updated with Flexbox */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+}
+
   
   footer a img {
     width: 30px;
