@@ -181,7 +181,7 @@ footer {
   align-items: center;
   padding: 20px;
   background-color: var(--primary-color);
-  color: white;
+  color: rgb(146, 217, 80);
 }
 
 .social-icons {
