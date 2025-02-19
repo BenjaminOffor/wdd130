@@ -203,3 +203,101 @@ footer {
     text-decoration: #d5eaf4;
   }
   
+  /* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+/* Newsletter Section */
+.newsletter {
+  text-align: center;
+  padding: 30px;
+  background-color: #f4f4f4;
+}
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.newsletter input {
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Call to Action Section */
+.call-to-action {
+  text-align: center;
+  padding: 40px;
+  background-color: #007bff;
+  color: white;
+}
+.call-to-action .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff4500;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+/* Grid Layout Section */
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  text-align: center;
+}
+.grid-item {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+}
+.grid-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+}
+.social-icons a img {
+  width: 30px;
+  margin: 5px;
+}
